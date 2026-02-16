@@ -233,7 +233,7 @@ router.post('/incidents',
 ### Real-Time Updates 
 Socket.io integration so users see live updates when incidents change. Would broadcast on create/update/delete and show toast notifications.
 
-### Incident History (4 days)
+### Incident History 
 Track every change to an incident. New table:
 ```sql
 CREATE TABLE incident_history (
@@ -272,7 +272,7 @@ Connect to:
 - **Email**: Notify owners on status changes
 - **JIRA**: Create tickets for tracking
 
-### Full-Text Search (3 days)
+### Full-Text Search 
 Current search is basic ILIKE. I'd switch to PostgreSQL's full-text search with tsvector for better relevance ranking and support for boolean operators.
 
 ```sql
@@ -362,4 +362,4 @@ Part of technical assessment, not for public use.
 
 **Author:** Amlendu Pandey 
 **Email:** amlendu2525@gmail.com  
-**GitHub:** [github.com/yourusername/incident-tracker](https://github.com/Infinimus01/Incident_tracker)
+**GitHub:** [https://github.com/Infinimus01/Incident_tracker]
