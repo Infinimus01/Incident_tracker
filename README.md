@@ -6,6 +6,10 @@ A full-stack incident management system I built for tracking production incident
 
 Engineers can create, search, filter, and manage production incidents. The app handles server-side pagination (because nobody wants to load 10,000 incidents at once), debounced search, multi-column sorting, and status updates. I seeded it with 200 sample incidents so you can see it working right away.
 
+<img width="1439" height="779" alt="Screenshot 2026-02-16 at 1 18 12 PM" src="https://github.com/user-attachments/assets/03f34873-9e3b-4539-9233-0fee12dea0ec" />
+<img width="1439" height="779" alt="Screenshot 2026-02-16 at 1 18 17 PM" src="https://github.com/user-attachments/assets/7f82c743-aabc-46df-a8e7-a8521c62c027" />
+
+
 ## Tech Stack
 
 **Backend:** Node.js, Express, PostgreSQL, pg driver  
