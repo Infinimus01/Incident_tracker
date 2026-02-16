@@ -1,0 +1,22 @@
+{
+    "name": "incident-tracker-backend",
+    "version": "1.0.0",
+    "description": "Backend API for Incident Tracker",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js",
+      "seed": "node src/seeders/incidents.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "pg": "^8.11.3",
+      "dotenv": "^16.3.1",
+      "cors": "^2.8.5",
+      "uuid": "^9.0.1",
+      "express-validator": "^7.0.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.2"
+    }
+  }
